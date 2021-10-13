@@ -1,0 +1,2 @@
+@echo off
+abaqus python abaqusOdbScript.py -p .\2021-10-13_01.11.02\OdbFile -o rndWn+SinCableF_100s%1.odb -t history -n SENSOR1 SENSOR2 SENSOR3 -s TimeVaryCableForce -f .\2021-10-13_01.11.02\ResultJson\rndWn+SinCableF_100s%1.json
